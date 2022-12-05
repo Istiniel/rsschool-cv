@@ -33,7 +33,11 @@ KubSTU
 
 My name is Edmon, i studied to be a civil engineer (2014-2018). Later I'd been working by my proffesion about 3 years. Nowadays, i'm learning intensively front-end stuff to become an experienced web-developer
 
-## Skills (in my judgment)
+## Strengs (in my judgment)
+
+diligence, punctuality, learning capability
+
+## Skills
 
 HTML/CSS - 50/100
 JS - 50/100
@@ -41,14 +45,12 @@ Photoshop - 50/10
 
 # Foreign languages
 
-English - 65/100
+English - 60/100 (Pre Intermediate)
 
 ### Hobbies
 
 ---
 
 ## Music
-
-## Games
 
 ## Coding
