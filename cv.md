@@ -31,7 +31,7 @@ KubSTU
 
 ## Biography
 
-My name is Edmon, i studied to be a civil engineer (2014-2018). Later I'd been working by my proffesion about 3 years. Nowadays, i'm learning intensively front-end stuff to become an experienced web-developer
+My name is Edmon. I studied to be a civil engineer (2014-2018). Later I'd been working by my proffesion about 3 years. Nowadays, i'm learning intensively front-end stuff to become an experienced web-developer
 
 ## Strengs (in my judgment)
 
