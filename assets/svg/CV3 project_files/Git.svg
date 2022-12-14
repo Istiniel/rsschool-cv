@@ -1,0 +1,41 @@
+<svg width="325" height="347" viewBox="0 0 325 347" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M324.84 127.787C324.757 105.869 317.194 84.6413 303.408 67.604C308.09 48.1306 306.627 27.6826 299.231 9.06795C297.773 5.48461 294.783 2.74502 291.09 1.59916C285.861 -0.192577 266.074 -3.55192 225.757 22.5778V22.583C208.413 18.0049 190.528 15.8434 172.596 16.1612C154.637 15.8382 136.721 17.9997 119.356 22.583C77.9916 -4.14631 56.4863 0.181701 52.1583 1.45237C48.4447 2.64507 45.4604 5.44196 44.0176 9.06689C36.6009 27.6189 35.0853 48.0096 39.6894 67.4576C25.4494 84.4056 17.8614 105.952 18.3348 128.083C18.3348 210.667 65.5948 235.604 108.903 244.416C106.679 249.854 105.148 255.546 104.351 261.364C104.273 261.984 104.273 262.614 104.351 263.234V286.078C64.9293 289.364 56.4907 266.291 55.668 263.677V263.682C55.4753 263.072 55.2513 262.474 54.9909 261.885C47.3764 246.354 33.9749 234.421 17.6576 228.661C10.8138 226.375 3.4069 230.067 1.12156 236.911C-1.16484 243.755 2.52783 251.162 9.37157 253.452C18.4132 256.718 25.9556 263.166 30.5796 271.592C35.8088 288.54 57.1636 315.347 104.2 312.358V333.863C104.2 341.082 110.049 346.931 117.267 346.931C124.481 346.931 130.335 341.082 130.335 333.863V264.202C131.325 256.592 134.637 249.478 139.814 243.816C143.523 240.347 144.866 235.04 143.262 230.223C141.658 225.41 137.392 221.968 132.351 221.416C86.804 216.113 44.6946 201.109 44.6946 127.561H44.6894C44.0801 109.613 51.0124 92.2276 63.8041 79.6236C67.2729 75.8944 68.4186 70.5662 66.7937 65.7382C62.3926 52.957 62.1062 39.1182 65.9708 26.1649C82.0014 29.7846 97.0588 36.842 110.096 46.8476C113.492 49.0924 117.726 49.6705 121.596 48.4153C138.189 43.3632 155.481 41.0194 172.82 41.4726C190.127 41.0195 207.399 43.3633 223.965 48.4153C227.835 49.6809 232.075 49.1028 235.465 46.8476C248.023 37.2225 262.397 30.2382 277.725 26.3116C281.533 39.4105 281.194 53.3636 276.751 66.2596C275.267 70.6398 276.236 75.4836 279.293 78.9522C291.652 92.1501 298.653 109.483 298.929 127.562C298.929 200.958 254.653 216.192 211.273 221.416C205.955 222.01 201.544 225.797 200.159 230.963C198.773 236.13 200.695 241.614 205.002 244.791C209.633 248.302 215.007 258.155 215.007 274.655V333.791C215.007 341.01 220.856 346.859 228.07 346.859C235.289 346.859 241.138 341.01 241.138 333.791V274.655C241.273 264.254 239.372 253.931 235.539 244.265C270.632 236.801 324.842 213.729 324.842 127.786L324.84 127.787Z" fill="black"/>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</svg>

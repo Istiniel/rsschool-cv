@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV3 project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="nav-head">
+
+      <h2 class="nav-logo">Edmon Kazaryan</h2>
+
+      <ul class="nav">
+
+        <li class="nav-lis"><a href="#Contacts">contacts</a></li>
+
+
+        <li class="nav-lis"><a href="#Summary">summary</a></li>
+
+
+        <li class="nav-lis"><a href="#Skills">skills</a></li>
+
+
+        <li class="nav-lis"><a href="#Code">code</a></li>
+
+
+        <li class="nav-lis"><a href="#Courses">courses</a></li>
+
+
+        <li class="nav-lis"><a href="#Projects">projects</a></li>
+
+
+        <li class="nav-lis"><a href="#Education_languages">education</a></li>
+
+
+        <li class="nav-lis"><a href="#Education_languages">english</a></li>
+
+      </ul>
+
+    </nav>
+  </header>
+  <main class="main">
+    <div class="main__articles">
+      <div class="main__article small__card" id="Contacts">
+        <img src="assets/images/cv_avatar.jpg" alt="avatar-image" class="main__avatar">
+        <h1 class="main__title main__contacts">Contacts</h1>
+        <div class="contacts--container">
+          <div class="contacts__location">
+            <a href="https://www.google.ru/maps/search/google+краснодар/@45.0577187,38.9976738,12z/data=!3m1!4b1"><img
+                src="assets/svg/Location.svg" alt="Location" class="contacts__icons"></a>
+            <p class="main__p e-mail">
+              Location: <span>Russia, Krasnodar</span>
+            </p>
+          </div>
+          <div class="contacts__email">
+            <a href="https://mail.ru"><img src="assets/svg/email.svg" alt="Location" class="contacts__icons"></a>
+            <p class="main__p e-mail">
+              E-mail: <span>eclipsio@mail.ru</span>
+            </p>
+          </div>
+          <div class="contacts__git">
+            <a href="https://github.com/Istiniel"><img src="assets/svg/Git.svg" alt="Location"
+                class="contacts__icons"></a>
+            <p class="main__p e-mail">
+              Github: <span>istiniel</span>
+            </p>
+          </div>
+          <div class="contacts__discord">
+            <a href="https://discord.com"><img src="assets/svg/Discord.svg" alt="Location" class="contacts__icons"></a>
+            <p class="main__p e-mail">
+              Discord: <span>#4410</span>
+            </p>
+          </div>
+
+        </div>
+      </div>
+      <div class="main__article medium__card" id="Summary">
+        <h1 class="main__title">Summary</h1>
+        <p class="main__p">
+          My name is Edmon. I studied to be a civil engineer (2014-2018). Later I’d been working by my proffesion
+          about
+          3 years. Nowadays, i’m learning intensively front-end stuff to become an experienced web-developer
+        </p>
+      </div>
+      <div class="main__article medium__card" id="Skills">
+        <h1 class="main__title">Skills</h1>
+        <p class="main__p">
+          Wev-development: <span>HTML5, CSS3, SASS, JavaScript</span>
+        </p>
+        <p class="main__p">
+          Frameworks: <span>React (beginner)</span>
+        </p>
+        <p class="main__p">
+          Version control: <span>Github (git technology)</span>
+        </p>
+        <p class="main__p">
+          Design/Graphics: <span>Photoshop, Figma, Adobe Illustrator</span>
+        </p>
+      </div>
+      <div class="main__article big__card" id="Code">
+        <h1 class="main__title" style="margin-bottom: 2rem">Code</h1>
+        <div class="code__section">
+          <div class="code__example">
+            <h2>Example #1:</h2>
+            <pre><code>class ReadError extends Error {
+              constructor(message, cause) {
+                super(message);
+                this.cause = cause;
+                this.name = 'ReadError';
+              }
+            }
+          
+          
+          
+          
+          
+          
+          </code></pre>
+          </div>
+          <div class="code__example">
+            <h2>Example #2:</h2>
+            <pre><code>function spy(func) {
+            function wrapper(...args) {
+              wrapper.calls.push(args);
+              return func.apply(this, args);
+            }
+          
+            wrapper.calls = [];
+          
+            return wrapper;
+          }
+
+
+
+          </code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="main__article tall__card" id="Courses">
+        <h1 class="main__title">Courses</h1>
+        <p class="main__p">
+          learn.javascript.ru: <span>JavaScript and DOM manual</span>
+        </p>
+        <p class="main__p">
+          www.freecodecamp.org: <span>HTML, CSS and JS courses</span>
+        </p>
+        <p class="main__p">
+          RSSchool: <span>front-end stage0 (taking part now)</span>
+        </p>
+      </div>
+      <div class="main__article medium__card" id="Projects">
+        <h1 class="main__title">Projects</h1>
+        <ul class="projects__list">
+          <li><a class="asd" href="https://istiniel.github.io/rsschool-cv/#Code">CV</a></li>
+          <li>Plants</li>
+        </ul>
+      </div>
+      <div class="main__article medium__card" id="Education_languages">
+        <h1 class="main__title">Education <span>(+languages)</span></h1>
+        <p class="main__p">Kuban state technological university: <span>civil engineer</span></p>
+        <p class="main__p">English: <span>pre-intemediate</span></p>
+      </div>
+    </div>
+  </main>
+  <footer class="foot">
+    <h1 class="current_year">2022</h1>
+    <a class="foot--git--link" href="https://github.com/Istiniel"><img src="assets/svg/Git.svg" alt="Location"
+        class="contacts__icons"></a>
+    <nav class="nav-foot">
+      <ul class="nav">
+
+        <li class="nav-lis"><a href="#Contacts">contacts</a></li>
+
+
+        <li class="nav-lis"><a href="#Summary">summary</a></li>
+
+
+        <li class="nav-lis"><a href="#Skills">skills</a></li>
+
+
+        <li class="nav-lis"><a href="#Code">code</a></li>
+
+
+        <li class="nav-lis"><a href="#Courses">courses</a></li>
+
+
+        <li class="nav-lis"><a href="#Projects">projects</a></li>
+
+
+        <li class="nav-lis"><a href="#Education_languages">education</a></li>
+
+
+        <li class="nav-lis"><a href="#Education_languages">english</a></li>
+
+      </ul>
+    </nav>
+    <a href="https://rs.school/js/"><img src="assets/svg/rs_school.svg" alt="rsschool_logo"></a>
+  </footer>
+</body>
+
+</html>
