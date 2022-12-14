@@ -337,6 +337,14 @@ body {
   text-transform: none;
   list-style: square;
 }
+.projects__list a {
+  color: var(--accent-color-1);
+  font-family: var(--font-secondary);
+  font-weight: var(--font-weight-normal);
+}
+.projects__list a:hover {
+  color: var(--primary-color-2);
+}
 
 .code__section {
   display: flex;
